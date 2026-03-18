@@ -5,3 +5,5 @@ This extension borrows heavily from the wildcard editor project in feel. This ex
 The extension allows for this feature to stack, so no matter how deep your chain of wildcards goes, this extension can accommodate it.
 
 When double clicking a wildcard, the dropdown menu features a search bar as well as a small toggle button which switches between merely highlighting the searched term within the wildcard entries and only showing entries which contain the searched term.
+
+UPDATE: Added a "lock" feature which lets you lock a wildcard to a certain entry, even if you revert to a higher wildcard. You can find the lock option in the right click menu. In the UI, a locked segment is red rather than orange, and a wildcard containing a locked segment somewhere within it appears magenta rather than purple. You can undo all locks using the forget button in the double click menu.
